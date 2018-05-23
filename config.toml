@@ -64,7 +64,7 @@ publishDir = "docs"
 
       [[params.links.list1.link]]
         text = "Portfolio"
-        url = "https://500px/rfisher"
+        url = "https://500px.com/rfisher"
 
       [[params.links.list1.link]]
         text = "Resume"
@@ -97,19 +97,19 @@ publishDir = "docs"
       heading = "Projects"
 
       [[params.links.list3.link]]
-        text = "Blind Tiger Podcast"
+        text = "Blind Tiger"
         url = "http://blindtigerpodcast.com"
 
       [[params.links.list3.link]]
-        text = "Tabula Cinephile Club"
+        text = "Tabula"
         url = "https://tabula.club"
 
       [[params.links.list3.link]]
-        text = "Left Join Book Club"
+        text = "Left Join"
         url = "https://www.reddit.com/r/leftjoinbookclub"
 
       [[params.links.list3.link]]
-        text = "Lancaster Technologists"
+        text = "Lanc Tech"
         url = "https://amishtech.slack.com"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
