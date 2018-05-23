@@ -1,0 +1,115 @@
+# Site settings
+baseURL = "https://robfisher.io/"
+languageCode = "en-US"
+title = "Personal Webspace for Rob Fisher"
+theme = "hugo-split-theme"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Rob Fisher"
+  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  shareImage = "images/social.jpg"
+  twitterHandle = "@bler"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2018 Rob Fisher"
+
+  # Section - Content
+  [params.content]
+    name = "Rob Fisher"
+    tagline = "Product Manager. Photographer. Climber."
+    bio = ""
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "https://blog.robfisher.io"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto://me@robfisher.us"
+
+      [[params.links.list1.link]]
+        text = "Portfolio"
+        url = "https://500px/rfisher"
+
+      [[params.links.list1.link]]
+        text = "Resume"
+        url = "..."
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://www.twitter.com/bler"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/zombiebaron"
+
+      [[params.links.list2.link]]
+        text = "Facebook"
+        url = "https://www.facebook.com/zombiebaron"
+
+      [[params.links.list2.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/rob-fisher-75a2412/"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Projects"
+
+      [[params.links.list3.link]]
+        text = "Blind Tiger Podcast"
+        url = "http://blindtigerpodcast.com"
+
+      [[params.links.list3.link]]
+        text = "Tabula Cinephile Club"
+        url = "https://tabula.club"
+
+      [[params.links.list3.link]]
+        text = "Left Join Book Club"
+        url = "https://www.reddit.com/r/leftjoinbookclub"
+
+      [[params.links.list3.link]]
+        text = "Lancaster Technologists"
+        url = "https://amishtech.slack.com"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
