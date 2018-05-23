@@ -68,7 +68,7 @@ publishDir = "docs"
 
       [[params.links.list1.link]]
         text = "Resume"
-        url = "..."
+        url = "files/resume.pdf"
 
   # Links List #2
   [[params.links]]
