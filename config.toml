@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://robfisher.io/"
+baseURL = "https://robfisher.me/"
 languageCode = "en-US"
 title = "Personal Webspace for Rob Fisher"
 theme = "hugo-split-theme"
@@ -15,7 +15,7 @@ publishDir = "docs"
 
   # Metadata for search engines and social sharing
   name = "Rob Fisher"
-  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  description = "Personal Webspace for Rob Fisher"
   shareImage = "images/social.jpg"
   twitterHandle = "@bler"
 
@@ -56,7 +56,7 @@ publishDir = "docs"
 
       [[params.links.list1.link]]
         text = "Blog"
-        url = "https://blog.robfisher.io"
+        url = "https://blog.robfisher.me"
 
       [[params.links.list1.link]]
         text = "Email"
